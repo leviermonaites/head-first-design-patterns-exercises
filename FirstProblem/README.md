@@ -1,6 +1,4 @@
 #   First Problem
-For readers of this book, the problem is well-known, but if you've never read it before, here is what it is:
-
 A guy called Joe wants to implement one behavior in his game (a duck simulator), that is, the ducks should fly.
 But then, he realized that neither all the ducks should fly, but when he realized such a thing, it was already committed to production.
 Now, he wants to solve the problem, and for that he proposed one solution that is:
