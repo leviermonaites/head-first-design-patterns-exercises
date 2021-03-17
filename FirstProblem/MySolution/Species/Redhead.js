@@ -1,5 +1,5 @@
-import Flyable from "../Abilities/Flyable.js";
-import Quackable from "../Abilities/Quackable.js";
+import Flyable from "../Abilities/Fly/Flyable.js";
+import Quackable from "../Abilities/Quack/Quackable.js";
 import Duck from "../AbstractClasses/Duck.js";
 
 class Redhead extends Duck {
