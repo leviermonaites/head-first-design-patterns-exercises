@@ -10,6 +10,6 @@ export default class MallardDuck extends Duck {
   }
 
   display() {
-    return "I'm a real Mallard duck";
+    console.log("I'm a real Mallard duck");
   }
 }

@@ -12,4 +12,10 @@ export default class Duck {
   performFly() {
     return this.flyBehavior.fly();
   }
+  setFlyBehavior(fb) {
+    this.flyBehavior = fb;
+  }
+  setQuackBehavior(qb) {
+    this.quackBehavior = qb;
+  }
 }
