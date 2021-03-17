@@ -11,4 +11,4 @@ And what if you just wanted to change the behavior a little bit? You would need 
 So, this script is all about me taking this problem, and implementing a solution that I think is right.
 I didn't see the solution of the book, so when I do, I'll commit it together, so that you (and me) can compare the two solutions at anytime.
 
-final-architecture.png
+(/final-architecture.png)
