@@ -1,5 +1,5 @@
 # Head First Design Pattern Exercises
-Exercises from the book Head First Design Patterns
+Exercises and problems from the book Head First Design Patterns
 
 What does each folder mean?
 
