@@ -5,5 +5,6 @@ Classes for game characters along with classes for weapon behavior the character
 Each character can make use of one weapon at a time, but it can change weapons at any time during the game.
 *Your job is to sort it all out...*
 
-[Your Task](your-task.png): 
-[Problem Resolution](resolution.png);
+[Your Task](your-task.png)
+
+[Problem Resolution](resolution.png)
