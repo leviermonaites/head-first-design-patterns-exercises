@@ -1,5 +1,5 @@
 # Head First Design Pattern Exercises
-Exercises from the book Head First Design Patterns
+Exercises and problems from the book Head First Design Patterns
 
 Each folder is a different pattern that I came across.
 Each folder will contain two or three folders called Exercises, another one called Problems, and a possible extra one called OfMyOwn see below, what each of them mean.
