@@ -1,4 +1,4 @@
-import Observer from "../Observers/Observer.ts";
+import Observer from "../../../Observers/Observer.ts";
 
 export default class Node {
   observer: Observer;

@@ -1,5 +1,5 @@
 import Reader from "./Observers/Reader.ts";
-import Newspaper from "./Subject/Newspaper.ts";
+import Newspaper from "./Subject/ConcreteClasses/Newspaper.ts";
 
 const dailyTimes = new Newspaper();
 // My family :)
@@ -17,3 +17,5 @@ dailyTimes.addNewObserver(r5);
 dailyTimes.publishNews("Biden is nominated as president of USA");
 console.log(dailyTimes.observers);
 console.log(r1);
+
+// I use deno to run the code.

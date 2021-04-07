@@ -1,9 +1,7 @@
-import Observer from "../Observers/Observer.ts";
+import DataStructure from '../DataStructures/DataStructure.ts';
 
 interface Subject {
-  addNewObserver(observer: Observer): void 
-  removeObserver(observer: Observer): void
-  notifyObservers(state: string): void;
+  observers: DataStructure;
 }
 
 export default Subject;
