@@ -1,21 +1,12 @@
-import Reader from "./Observers/Reader.ts";
-import Newspaper from "./Subject/ConcreteClasses/Newspaper.ts";
+import Newspaper from './concreteClasses/Subject/Newspaper.ts';
+import Reader from './concreteClasses/Observer/Reader.ts';
 
-const dailyTimes = new Newspaper();
-// My family :)
-const r1 = new Reader("Levi");
-const r2 = new Reader("Lincoln");
-const r3 = new Reader("Lucas");
-const r4 = new Reader("Janaina");
-const r5 = new Reader("Carlos");
+const dailyTimes = new Newspaper('linked-list');
+const reader1 = new Reader("Levi");
+const reader2 = new Reader("Lincoln");
 
-dailyTimes.addNewObserver(r1);
-dailyTimes.addNewObserver(r2);
-dailyTimes.addNewObserver(r3);
-dailyTimes.addNewObserver(r4);
-dailyTimes.addNewObserver(r5);
-dailyTimes.publishNews("Biden is nominated as president of USA");
-console.log(dailyTimes.observers);
-console.log(r1);
-
-// I use deno to run the code.
+dailyTimes.addObserver(reader1);
+dailyTimes.addObserver(reader2);
+dailyTimes.publishNews("Biden is the new president of USA!");
+console.log(reader1);
+console.log(reader2);
